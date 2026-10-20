@@ -1,0 +1,10 @@
+.site-header { position: sticky; top: 0; z-index: 30; }
+.site-header__inner { max-width: 1400px; margin: 0 auto; padding: 0 var(--margin); height: 76px; display: flex; align-items: center; gap: 24px; }
+.site-header__brand { display: block; line-height: 0; margin-right: auto; }
+.site-header__brand img { height: 48px; width: auto; display: block; }
+.site-nav { display: none; }
+.site-nav a { padding: 12px 18px; font-weight: 500; text-decoration: none; }
+.site-nav a:hover { color: var(--gold); }
+.site-header .cart-button { background: var(--gold); color: var(--navy); }
+
+@media (min-width: 820px) { .site-nav { display: flex; } }

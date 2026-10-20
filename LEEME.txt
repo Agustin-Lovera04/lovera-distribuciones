@@ -1,0 +1,3 @@
+Copiá estos archivos ENCIMA de tu proyecto, respetando las rutas (reemplazar los existentes).
+No borres nada. No hace falta instalar nada. Después: npm run dev
+Tu imagen de productos: guardala como  public/hero/producto.png

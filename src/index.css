@@ -1,0 +1,162 @@
+/* ===== Colores, tipografías y tamaños (editá acá) ===== */
+:root {
+  --navy: #0b1f45;
+  --navy-deep: #07142f;
+  --gold: #c6a15b;
+  --ivory: #f3efe6;
+  --ground: #edeff2;
+  --paper: #f8f9fb;
+  --stone: #dadfe7;
+  --ink: #0b1f45;
+  --ink-muted: #566178;
+
+  --font-display: 'Newsreader Variable', Georgia, serif;
+  --font-text: 'Hanken Grotesk Variable', system-ui, sans-serif;
+
+  --text: 17px;
+  --small: 14px;
+  --title-s: 22px;
+  --title-m: 40px;
+  --title-l: 56px;
+  --margin: 16px;
+  --section: 80px;
+}
+
+@media (min-width: 700px) {
+  :root { --title-s: 26px; --title-m: 56px; --title-l: 80px; --margin: 24px; --section: 110px; }
+}
+
+@media (min-width: 1100px) {
+  :root { --title-s: 30px; --title-m: 64px; --title-l: 104px; --margin: 32px; --section: 150px; }
+}
+
+/* ===== Base ===== */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: var(--text);
+  line-height: 1.5;
+}
+
+h1, h2, h3 { margin: 0; font-weight: 400; }
+h1, h2 { font-family: var(--font-display); font-size: var(--title-m); line-height: 1.05; letter-spacing: -0.02em; }
+p { margin: 0 0 1em; }
+a { color: inherit; }
+button { font-family: inherit; cursor: pointer; }
+img { max-width: 100%; }
+main:focus { outline: none; }
+::selection { background: var(--gold); color: var(--navy); }
+:focus-visible { outline: 3px solid var(--navy); outline-offset: 3px; }
+
+.app-shell { min-height: 100vh; display: flex; flex-direction: column; }
+.app-shell > main { flex: 1; }
+
+.container { max-width: 1400px; margin: 0 auto; padding: 0 var(--margin); }
+
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; z-index: 100; padding: 14px 18px; background: var(--gold); color: var(--navy); }
+.skip-link:focus { left: 12px; top: 12px; }
+
+/* Campos oscuros */
+.is-dark { background: var(--navy); color: var(--ivory); }
+.is-dark :focus-visible { outline-color: var(--gold); }
+
+/* ===== Botones ===== */
+.button {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 56px; padding: 0 32px;
+  background: var(--navy); color: var(--ivory);
+  border: 0; font: inherit; font-weight: 600; text-decoration: none;
+}
+.button:hover { background: var(--navy-deep); }
+.button--block { width: 100%; }
+.button--gold { background: var(--gold); color: var(--navy); }
+.button--gold:hover { background: #d4b273; }
+
+.text-button { align-self: center; padding: 12px; background: none; border: 0; color: var(--ink); font: inherit; text-decoration: underline; }
+
+.icon-button { width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; background: transparent; color: var(--ink); border: 0; }
+.icon-button:hover { background: var(--stone); }
+
+/* ===== Primera pantalla: texto e imágenes son dos bloques independientes ===== */
+.hero__text { padding: 40px var(--margin); }
+
+.hero__logo { margin: 0; line-height: 0; }
+.hero__logo img { width: 100%; max-width: 520px; height: auto; animation: write-on 1.7s ease-out 0.2s both; }
+
+.hero__meta { margin-top: 40px; max-width: 460px; }
+.hero__meta p { margin: 0 0 24px; font-size: var(--title-s); line-height: 1.25; }
+
+/* Zona de imágenes: tamaño FIJO. Lo que hagas con una imagen no mueve el texto. */
+.hero__stage { position: relative; height: 420px; overflow: hidden; }
+.hero__stage--navy { background: var(--navy); }
+.hero__stage--gold { background: var(--gold); }
+.hero__item { position: absolute; left: var(--m-left); bottom: var(--m-bottom); height: var(--m-height); }
+.hero__item img { display: block; height: 100%; width: auto; }
+.hero__note { position: absolute; top: 40%; left: 10%; right: 10%; margin: 0; text-align: center; font-size: var(--small); }
+
+@keyframes write-on { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+
+@media (min-width: 900px) {
+  .hero { display: flex; align-items: center; }
+  .hero__text { width: 50%; padding: 64px 32px; }
+  .hero__stage { width: 50%; height: 640px; }
+  .hero__item { left: var(--left); bottom: var(--bottom); height: var(--height); }
+}
+
+/* ===== Catálogo ===== */
+.catalog { padding-top: 5%; padding-bottom: var(--section); }
+.catalog__title { margin-bottom: 40px; }
+.catalog__aside { margin-bottom: 32px; }
+.catalog__empty { padding: 24px 0; }
+.catalog__empty p { max-width: 520px; font-family: var(--font-display); font-size: var(--title-s); line-height: 1.2; margin-bottom: 24px; }
+
+@media (min-width: 960px) {
+  .catalog__layout { display: flex; gap: 64px; align-items: flex-start; }
+  .catalog__aside { width: 260px; flex: none; position: sticky; top: 100px; margin-bottom: 0; }
+  .catalog__layout .carta, .catalog__layout .carta__empty { flex: 1; min-width: 0; }
+}
+
+/* ===== Destacados ===== */
+.featured { padding: var(--section) 0; }
+.featured__title { margin-bottom: 40px; }
+.featured__list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 16px; }
+.featured__list li { width: 100%; }
+
+@media (min-width: 900px) {
+  .featured__list { gap: 24px; }
+  .featured__list li { width: 30%; flex: 1; }
+}
+
+/* ===== Cómo pedir ===== */
+.howto { background: var(--gold); color: var(--navy); padding: var(--section) 0; }
+.howto__list { list-style: none; margin: 40px 0 0; padding: 0; max-width: 520px; font-family: var(--font-display); font-size: var(--title-s); line-height: 1.2; }
+.howto__list li { margin-bottom: 32px; }
+
+@media (min-width: 900px) {
+  .howto__inner { display: flex; gap: 64px; }
+  .howto__title { width: 40%; }
+  .howto__list { margin-top: 0; }
+}
+
+/* ===== Páginas legales y 404 ===== */
+.legal-page { max-width: 820px; padding-top: 48px; padding-bottom: var(--section); }
+.legal-page h2 { margin-top: 2em; font-size: var(--title-s); }
+.legal-page .pending { display: block; padding: 14px 18px; background: var(--gold); color: var(--navy); font-weight: 500; }
+.not-found { padding-top: 64px; padding-bottom: var(--section); }
+.not-found p { max-width: 480px; margin: 24px 0; font-family: var(--font-display); font-size: var(--title-s); }
+
+/* ===== Anclas: dejan lugar para el encabezado ===== */
+.wall, .catalog, .howto, .site-footer { scroll-margin-top: 80px; }
+
+/* ===== Movimiento reducido: AOS no oculta nada ===== */
+@media (prefers-reduced-motion: reduce) {
+  [data-aos] { opacity: 1 !important; transform: none !important; transition: none !important; pointer-events: auto !important; }
+  .hero__logo img { animation: none; }
+}

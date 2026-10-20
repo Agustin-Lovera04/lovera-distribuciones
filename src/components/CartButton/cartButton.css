@@ -1,0 +1,2 @@
+.cart-button { position: relative; width: 52px; height: 52px; display: inline-flex; align-items: center; justify-content: center; background: var(--navy); color: var(--ivory); border: 0; }
+.cart-button__badge { position: absolute; top: -8px; right: -8px; min-width: 24px; height: 24px; padding: 0 6px; display: inline-flex; align-items: center; justify-content: center; background: var(--ivory); color: var(--navy); font-size: 13px; font-weight: 700; }

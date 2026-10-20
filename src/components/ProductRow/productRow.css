@@ -1,0 +1,20 @@
+.row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; padding: 20px 12px; }
+.row:hover { background: var(--paper); }
+.row__thumb { width: 72px; height: 72px; flex: none; background: #fff; padding: 6px; display: flex; align-items: center; justify-content: center; }
+.row__thumb img { width: 100%; height: 100%; object-fit: contain; }
+.row__text { flex: 1; min-width: 140px; }
+.row__name { font-family: var(--font-display); font-size: var(--title-s); line-height: 1.1; }
+.row__desc { margin: 6px 0 0; max-width: 520px; font-size: var(--small); color: var(--ink-muted); }
+.row__buy { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.row__price { margin: 0; font-family: var(--font-display); font-size: var(--title-s); white-space: nowrap; }
+.row__action { display: flex; justify-content: flex-end; }
+.row__out { font-size: var(--small); color: var(--ink-muted); }
+.add-button__label { display: none; }
+
+@media (min-width: 760px) {
+  .row { flex-wrap: nowrap; gap: 24px; }
+  .row__thumb { width: 96px; height: 96px; }
+  .row__buy { width: auto; gap: 24px; }
+  .row__action { width: 150px; }
+  .add-button__label { display: inline; }
+}

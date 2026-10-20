@@ -1,0 +1,13 @@
+.wall { padding-top: var(--section); }
+.wall__head { margin-bottom: 32px; }
+.wall__title { margin-bottom: 24px; }
+.wall__list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 32px; }
+.wall__brand { padding: 0; background: none; border: 0; color: var(--navy); text-align: left; font-family: var(--font-display); font-size: var(--title-m); letter-spacing: -0.02em; line-height: 1.1; }
+.wall__brand:hover { color: var(--gold); }
+
+@media (min-width: 800px) {
+  .wall__head { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; }
+  .wall__title { margin-bottom: 0; }
+  .wall__search { width: 420px; }
+  .wall__search .search-bar { margin-bottom: 0; }
+}

@@ -1,0 +1,14 @@
+.filters { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+.filters button { flex: none; min-height: 48px; padding: 0 20px; background: transparent; color: var(--ink); border: 0; text-align: left; font-size: var(--text); font-weight: 500; white-space: nowrap; }
+.filters button:hover { background: var(--stone); }
+.filters button[aria-pressed='true'] { background: var(--navy); color: var(--ivory); }
+.filters__sub { display: flex; gap: 8px; }
+.filters__sub button { min-height: 40px; padding: 0 16px; font-size: var(--small); }
+.filters__sub button[aria-pressed='true'] { background: var(--gold); color: var(--navy); }
+
+@media (min-width: 960px) {
+  .filters { flex-direction: column; gap: 2px; overflow: visible; }
+  .filters > button { width: 100%; font-family: var(--font-display); font-size: var(--title-s); font-weight: 400; white-space: normal; }
+  .filters__sub { flex-direction: column; gap: 2px; padding: 4px 0 12px 20px; }
+  .filters__sub button { width: 100%; font-size: var(--text); white-space: normal; }
+}
