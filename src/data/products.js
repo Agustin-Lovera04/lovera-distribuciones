@@ -835,7 +835,7 @@ export const products = [
     description:
       "Pack 3unid. $3.999 c/u ------ Un Malbec joven, amable y muy fresco, ideal para disfrutar todos los días. En nariz regala exquisitos aromas a frutos negros maduros y sutiles notas de vainilla. En boca destaca por su cuerpo medio, taninos suaves y un final redondo, convirtiéndolo en el compañero perfecto para asados diarios o tablas de quesos.",
     available: true, // false = muestra "Sin stock"
-    featured: false, // true = aparece en "Destacados" (máximo 3)
+    featured: true, // true = aparece en "Destacados" (máximo 3)
   },
   {
     id: "SingleVineyard", // único, sin espacios, no lo cambies después
@@ -1402,7 +1402,7 @@ export const products = [
     image: "/products/Body Hidratacion Express 125ml.png",
     description: "caja de 12 u. $3500 c/u",
     available: true, // false = muestra "Sin stock"
-    featured: false, // true = aparece en "Destacados" (máximo 3)
+    featured: true, // true = aparece en "Destacados" (máximo 3)
   },
   {
     id: "BodyHidratacionExpress250ml", // único, sin espacios, no lo cambies después
@@ -1696,7 +1696,7 @@ export const products = [
     image: "/products/Off Family Aerosol  x165 cc.png",
     description: "Pack 3unid. $5.450c/u",
     available: true, // false = muestra "Sin stock"
-    featured: false, // true = aparece en "Destacados" (máximo 3)
+    featured: true, // true = aparece en "Destacados" (máximo 3)
   },
                               {
     id: "OffFamilyBonusx290cc", // único, sin espacios, no lo cambies después

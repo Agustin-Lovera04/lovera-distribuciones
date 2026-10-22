@@ -27,13 +27,13 @@ export default function Privacidad() {
 
       <h2>Titular responsable</h2>
       <p className="pending">
-        [DATO PENDIENTE] Nombre/razón social: {business.legal.razonSocial || '— completar —'}
+        Nombre/razón social: Agustin Lovera{business.legal.razonSocial || '— completar —'}
         <br />
-        CUIT: {business.legal.cuit || '— completar —'}
+        CUIT: 23-45507271-9
         <br />
-        Domicilio: {business.legal.domicilioFiscal || '— completar —'}
+        Domicilio: San Lorenzo 8535
         <br />
-        Email de contacto: {business.legal.emailContacto || '— completar —'}
+        Email de contacto: agustinlovera.dev@gmail.com
       </p>
 
       <h2>Aviso</h2>
