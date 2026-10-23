@@ -27,7 +27,7 @@ export default function Privacidad() {
 
       <h2>Titular responsable</h2>
       <p className="pending">
-        Nombre/razón social: Agustin Lovera{business.legal.razonSocial || '— completar —'}
+        Nombre/razón social: Agustin Lovera
         <br />
         CUIT: 23-45507271-9
         <br />

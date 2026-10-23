@@ -1,4 +1,40 @@
 export const products = [
+       {
+    id: "Promo1", // único, sin espacios, no lo cambies después
+    name: "PROMO EXCLUSIVA. - Promo semanal",
+    category: "bebeidas", // bebidas | powerful | croppers | nivea | sc-johnson
+    subcategory: "", // solo bebidas: vinos | whisky | ron | conac | gin
+    price: 11999, // solo número, sin $ ni puntos
+    image: "/products/TerraAndina.jpeg",
+    description:
+      "Doña Paula Terra Andina - Pack de 3u. $3.999 c/u",
+    available: true, // false = muestra "Sin stock"
+    featured: true, // true = aparece en "Destacados" (máximo 3)
+  }, 
+  {
+    id: "Promo2", // único, sin espacios, no lo cambies después
+    name: "PACK DE 3u. - Promo semanal",
+    category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
+    subcategory: "", // solo bebidas: vinos | whisky | ron | conac | gin
+    price: 11999, // solo número, sin $ ni puntos
+    image: "/products/Body Milk Nutritiva Piel Extra Seca 125ml.png",
+    description:
+      "Body Milk Nutritiva Piel Extra Seca 125ml -  Pack de 3u. $3.999 c/u",
+    available: true, // false = muestra "Sin stock"
+    featured: true, // true = aparece en "Destacados" (máximo 3)
+  },
+     {
+    id: "Promo3", // único, sin espacios, no lo cambies después
+    name: "PROMO EXCLUSIVA. - Promo semanal",
+    category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
+    subcategory: "", // solo bebidas: vinos | whisky | ron | conac | gin
+    price: 14500, // solo número, sin $ ni puntos
+    image: "/products/Promo2.png",
+    description:
+      "Raid MMM x380cc / Fuyi Tabletas Expendedora x12 / Off Family Crema x60gr",
+    available: true, // false = muestra "Sin stock"
+    featured: true, // true = aparece en "Destacados" (máximo 3)
+  },
   {
     id: "SirEdward700", // único, sin espacios, no lo cambies después
     name: "Sir Edward's 700ml",
@@ -632,7 +668,7 @@ export const products = [
     description:
       "El Jägermeister es un famoso licor de hierbas alemán con 35% de graduación alcohólica, elaborado en la ciudad de Wolfenbüttel",
     available: true, // false = muestra "Sin stock"
-    featured: false, // true = aparece en "Destacados" (máximo 3)
+    featured: true, // true = aparece en "Destacados" (máximo 3)
   },
   {
     id: "Jagger700", // único, sin espacios, no lo cambies después
@@ -809,7 +845,7 @@ export const products = [
     price: 17350, // solo número, sin $ ni puntos
     image: "/products/DoñaPaulaSauvageBlanc.png",
     description:
-      "Pack 3unid. $12.000 c/u ------ El primer espumante de Argentina elaborado 100% con uvas Sauvignon Blanc. Doña Paula Sauvage Blanc rompe esquemas con su color amarillo verdoso y sus intensos aromas cítricos, de ruda y notas de pomelo blanco. En boca es completamente salvaje, fresco, con una acidez marcada, burbujas persistentes y un final vivaz que lo hace único y súper refrescante.",
+      "Pack 3unid. $12.000 c/u ------ El primer espumante de Argentina elaborado 100% con uvas Sauvignon Blanc. Doña Paula Sauvage Blanc rompe esquemas con su color amarillo verdoso y sus intensos aromas cítricos, de ruda y notas de pomelo blanco. ",
     available: true, // false = muestra "Sin stock"
     featured: false, // true = aparece en "Destacados" (máximo 3)
   },
@@ -821,7 +857,7 @@ export const products = [
     price: 7600, // solo número, sin $ ni puntos
     image: "/products/RoseOfMalbec.png",
     description:
-      "Pack 3unid. $5.500 c/u ------ El primer espumante de Argentina elaborado 100% con uvas Sauvignon Blanc. Doña Paula Sauvage Blanc rompe esquemas con su color amarillo verdoso y sus intensos aromas cítricos, de ruda y notas de pomelo blanco. En boca es completamente salvaje, fresco, con una acidez marcada, burbujas persistentes y un final vivaz que lo hace único y súper refrescante.",
+      "Pack 3unid. $5.500 c/u ------ El primer espumante de Argentina elaborado 100% con uvas Sauvignon Blanc. Doña Paula Sauvage Blanc rompe esquemas con su color amarillo verdoso y sus intensos aromas cítricos, de ruda y notas de pomelo blanco.",
     available: true, // false = muestra "Sin stock"
     featured: false, // true = aparece en "Destacados" (máximo 3)
   },
@@ -831,11 +867,11 @@ export const products = [
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
     price: 4900, // solo número, sin $ ni puntos
-    image: "/products/TerraAndina.jpg",
+    image: "/products/TerraAndina.jpeg",
     description:
-      "Pack 3unid. $3.999 c/u ------ Un Malbec joven, amable y muy fresco, ideal para disfrutar todos los días. En nariz regala exquisitos aromas a frutos negros maduros y sutiles notas de vainilla. En boca destaca por su cuerpo medio, taninos suaves y un final redondo, convirtiéndolo en el compañero perfecto para asados diarios o tablas de quesos.",
+      "Pack 3unid. $3.999 c/u ------ Un Malbec joven, amable y muy fresco, ideal para disfrutar todos los días. En nariz regala exquisitos aromas a frutos negros maduros y sutiles notas de vainilla. ",
     available: true, // false = muestra "Sin stock"
-    featured: true, // true = aparece en "Destacados" (máximo 3)
+    featured: false, // true = aparece en "Destacados" (máximo 3)
   },
   {
     id: "SingleVineyard", // único, sin espacios, no lo cambies después

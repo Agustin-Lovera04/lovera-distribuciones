@@ -31,7 +31,7 @@ export default function Home() {
   }, [search, category, subcategory])
 
   const featured = useMemo(
-    () => products.filter((p) => p.featured && p.available !== false).slice(0, 3),
+    () => products.filter((p) => p.featured && p.available !== false).slice(0, 5),
     []
   )
 
