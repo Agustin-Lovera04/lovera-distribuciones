@@ -8,6 +8,7 @@ import Home from './pages/Home.jsx'
 import Privacidad from './pages/Privacidad.jsx'
 import Terminos from './pages/Terminos.jsx'
 import NotFound from './pages/NotFound.jsx'
+import CookieBanner from './components/CookieBanner/CookieBanner.jsx'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -37,6 +38,7 @@ export default function App() {
       </main>
       <Footer />
       <OrderBar />
+      <CookieBanner/>
     </div>
   )
 }

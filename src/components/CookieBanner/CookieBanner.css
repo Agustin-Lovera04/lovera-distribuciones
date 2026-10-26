@@ -1,0 +1,126 @@
+.cookie-banner {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9999;
+  width: min(440px, calc(100% - 32px));
+  padding: 24px;
+  color: #f8f5ed;
+  background: #171717;
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  animation: cookie-banner-enter 0.3s ease-out;
+}
+
+.cookie-banner__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cookie-banner__title {
+  margin: 0 0 10px;
+  color: #d4af37;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.cookie-banner__text p {
+  margin: 0 0 12px;
+  color: #e5e2da;
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.cookie-banner__link {
+  color: #e2c568;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cookie-banner__link:hover {
+  color: #fff0b0;
+}
+
+.cookie-banner__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.cookie-banner__button {
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 1px solid #d4af37;
+  border-radius: 7px;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.cookie-banner__button--primary {
+  flex: 1;
+  color: #171717;
+  background: #d4af37;
+}
+
+.cookie-banner__button--primary:hover {
+  background: #e5c65e;
+}
+
+.cookie-banner__button--secondary {
+  color: #f8f5ed;
+  background: transparent;
+}
+
+.cookie-banner__button--secondary:hover {
+  color: #171717;
+  background: #f8f5ed;
+  border-color: #f8f5ed;
+}
+
+.cookie-banner__button:focus-visible,
+.cookie-banner__link:focus-visible {
+  outline: 2px solid #fff0b0;
+  outline-offset: 4px;
+}
+
+@keyframes cookie-banner-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .cookie-banner {
+    right: 16px;
+    bottom: 16px;
+    width: calc(100% - 32px);
+    padding: 20px;
+  }
+
+  .cookie-banner__actions {
+    flex-direction: column;
+  }
+
+  .cookie-banner__button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cookie-banner {
+    animation: none;
+  }
+}
