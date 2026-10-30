@@ -52,7 +52,7 @@ export const products = [
     name: "Sir Edward's 2000ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 59800, // solo número, sin $ ni puntos
+    price: 59900, // solo número, sin $ ni puntos
     image: "/products/SirEdward700.png",
     description:
       " whisky escocés tipo Blended Scotch Whisky (mezcla de whiskies de malta y de grano), elaborado en Escocia y perteneciente al grupo francés La Martiniquaise-Bardinet.",
@@ -64,7 +64,7 @@ export const products = [
     name: "Jura Bourbon Cask 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 124000, // solo número, sin $ ni puntos
+    price: 129000, // solo número, sin $ ni puntos
     image: "/products/JuraCask.jpg",
     description:
       "whisky escocés single malt originario de la remota isla de Jura, caracterizado por un perfil suave, fresco, frutado y equilibrado.",
@@ -76,7 +76,7 @@ export const products = [
     name: "Jura 12 años 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 175000, // solo número, sin $ ni puntos
+    price: 179000, // solo número, sin $ ni puntos
     image: "/products/Jura12a.jpg",
     description:
       "whisky escocés de malta (single malt) elaborado en la remota isla de Jura, Escocia, reconocido por su perfil equilibrado entre dulzor, fruta y un sutil toque ahumado y marino. Madurado durante 12 años.",
@@ -88,7 +88,7 @@ export const products = [
     name: "Jura 18 años 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 356000, // solo número, sin $ ni puntos
+    price: 375000, // solo número, sin $ ni puntos
     image: "/products/Jura18a.jpg",
     description:
       "Madura durante 18 años en barricas de roble blanco americano que previamente contuvieron bourbon, y luego recibe un acabado especial en barricas de vino tinto Premier Grand Cru Classé de Burdeos (Francia).",
@@ -100,7 +100,7 @@ export const products = [
     name: "The Dalmore 12 años 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 245000, // solo número, sin $ ni puntos
+    price: 249000, // solo número, sin $ ni puntos
     image: "/products/Dalmore12a.jpg",
     description:
       "Una obra maestra de las Highlands escocesas, reconocida mundialmente por su elegancia, complejidad y su característico emblema del ciervo de 12 puntas (símbolo del clan Mackenzie). Madurado 9 años en roble blanco y 3 en exclusivas barricas de jerez Matusalem Oloroso de 30 años.",
@@ -112,7 +112,7 @@ export const products = [
     name: "The Dalmore 15 años 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 530000, // solo número, sin $ ni puntos
+    price: 545000, // solo número, sin $ ni puntos
     image: "/products/Dalmore15a.jpg",
     description:
       "Añejado primero en roble de bourbon y luego terminado en tres estilos diferentes de Jerez (Apostoles, Amoroso y Matusalem Oloroso). Es mucho más untuoso, denso y complejo, con notas marcadas de mermelada de naranja, canela, clavo de olor y fruta navideña.",
@@ -124,7 +124,7 @@ export const products = [
     name: "The Dalmore 18 años 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 1080000, // solo número, sin $ ni puntos
+    price: 1150000, // solo número, sin $ ni puntos
     image: "/products/Dalmore18a.jpg",
     description:
       "Una obra maestra de maduración prolongada. Pasa 14 años en roble americano y 4 años finales en botas de Jerez Matusalem Oloroso de 30 años. Ofrece una profundidad sublime con recuerdos de chocolate amargo, café espresso, regaliz y cítricos maduros. Un whisky de colección y alta gama.",
@@ -136,7 +136,7 @@ export const products = [
     name: "Bruichladdich Classic Laddie 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 125000, // solo número, sin $ ni puntos
+    price: 122000, // solo número, sin $ ni puntos
     image: "/products/BruichladdichClassic.jpg",
     description:
       "Whiskies artesanales puros de la mítica isla de Islay, sin filtrado en frío ni colorantes. Desde la elegancia floral y costera hasta la potencia intensamente ahumada de la turba.",
@@ -148,7 +148,7 @@ export const products = [
     name: "Glen Moray Classic Sherry Cask 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 79500, // solo número, sin $ ni puntos
+    price: 83500, // solo número, sin $ ni puntos
     image: "/products/GlenMoraySherry.jpg",
     description:
       "Solo los mejores barriles de jerez Oloroso se utilizan para madurar este extraordinario single malt. La inconfundible vainilla y el roble del Elgin Classic aún son evidentes pero, se amalgaman con vibrantes sabores de frutos secos y notas terrosas provenientes de su paso por barricas ex-jerez, logrando así un whisky multifacético.",
@@ -172,7 +172,7 @@ export const products = [
     name: "Glen Moray Heritage 15 Años 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 198000, // solo número, sin $ ni puntos
+    price: 199999, // solo número, sin $ ni puntos
     image: "/products/GlenMoray15a.jpg",
     description:
       "Whisky escocés de malta (Single Malt Scotch Whisky) originario de la región de Speyside, añejado durante 15 años en una combinación de barricas de roble americano y barricas de jerez (sherry)",
@@ -184,7 +184,7 @@ export const products = [
     name: "Glen Moray Heritage 18 Años 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 400000, // solo número, sin $ ni puntos
+    price: 410000, // solo número, sin $ ni puntos
     image: "/products/GlenMoray18a.jpg",
     description:
       "Whisky escocés de pura malta (single malt) de Speyside, añejado íntegramente durante 18 años en barricas de roble americano de primer uso",
@@ -208,7 +208,7 @@ export const products = [
     name: "Chivas Regal 12 years old 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 72000, // solo número, sin $ ni puntos
+    price: 74000, // solo número, sin $ ni puntos
     image: "/products/Chivas1lt.jpg",
     description:
       "Blended Scotch Whisky añejado por un mínimo de 12 años en barricas de roble americano y europeo.",
@@ -220,7 +220,7 @@ export const products = [
     name: "Chivas Regal Mizunara 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 98000, // solo número, sin $ ni puntos
+    price: 99900, // solo número, sin $ ni puntos
     image: "/products/ChivasMizunara.jpg",
     description:
       "Whisky escocés blended único, caracterizado por un acabado parcial en barricas de roble japonés Mizunara, una de las maderas más escasas, porosas y valoradas del mundo.",
@@ -251,12 +251,24 @@ export const products = [
     available: true, // false = muestra "Sin stock"
     featured: false, // true = aparece en "Destacados" (máximo 3)
   },
+    {
+    id: "Ballantine7YO", // único, sin espacios, no lo cambies después
+    name: "Ballantine's 7YO Bourbon Finish 700ml",
+    category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
+    subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
+    price: 43500, // solo número, sin $ ni puntos
+    image: "/products/Balla7Yo.png",
+    description:
+      "El Ballantine's 7 Años Bourbon Finish es un whisky escocés blended que combina 7 años de añejamiento en barricas de roble con un paso final por barricas de bourbonBallantine’s Finest es un complejo, refinado y elegante whisky blended escocés, su sabor se considera ideal para satisfacer el estilo moderno. El color dorado claro de la marca y su inconfundible sabor provienen de una compleja mezcla de whiskies de malta y granos seleccionados especialmente.",
+    available: true, // false = muestra "Sin stock"
+    featured: false, // true = aparece en "Destacados" (máximo 3)
+  },
   {
     id: "Jameson", // único, sin espacios, no lo cambies después
     name: "Jameson 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 36500, // solo número, sin $ ni puntos
+    price: 38500, // solo número, sin $ ni puntos
     image: "/products/Jameson.jpg",
     description:
       "Whisky irlandés blend triple destilado, reconocido mundialmente por su suavidad y versatilidad",
@@ -268,7 +280,7 @@ export const products = [
     name: "Glenlivet 12 años 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "whisky", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 82500, // solo número, sin $ ni puntos
+    price: 84500, // solo número, sin $ ni puntos
     image: "/products/GlenLivet.jpg",
     description:
       "The Glenlivet 12 Años Single Malt es un referente mundial de la categoría Scotch Single Malt, considerado también como el whisky Single Malt Patrón de la región Speyside.",
@@ -316,7 +328,7 @@ export const products = [
     name: "Corralejo Reposado 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "tequila", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 84000, // solo número, sin $ ni puntos
+    price: 85000, // solo número, sin $ ni puntos
     image: "/products/CorralejoReposado.jpg",
     description:
       "Destilado 100% de agave azul (Tequilana Weber), originario de Pénjamo, Guanajuato, México. Se destaca por su inconfundible botella azul de vidrio soplado y un proceso de reposo de 4 meses",
@@ -328,7 +340,7 @@ export const products = [
     name: "Corralejo Añejo 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "tequila", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 102000, // solo número, sin $ ni puntos
+    price: 108000, // solo número, sin $ ni puntos
     image: "/products/CorralejoAñejo.jpg",
     description:
       "Destilado 100% de agave azul (Tequilana Weber), elaborado en la histórica Hacienda de Corralejo en Pénjamo, Guanajuato, México.",
@@ -340,7 +352,7 @@ export const products = [
     name: "Rose Strawberry Cream 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "tequila", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 51999, // solo número, sin $ ni puntos
+    price: 52999, // solo número, sin $ ni puntos
     image: "/products/RoseTequila.jpg",
     description:
       "Tequila Rose Strawberry Cream es un licor que combina crema de leche con sabor a frutillas y un toque sutil de tequila (15% ABV).",
@@ -364,7 +376,7 @@ export const products = [
     name: "The Botanist Islay 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "gin", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 68900, // solo número, sin $ ni puntos
+    price: 69900, // solo número, sin $ ni puntos
     image: "/products/Botanistslay.jpg",
     description:
       "Ginebra seca artesanal prémium originaria de la isla de Islay, Escocia, elaborada en la destilería Bruichladdich",
@@ -424,7 +436,7 @@ export const products = [
     name: "Santa T. Gran Reserva 5 años 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "ron", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 42500, // solo número, sin $ ni puntos
+    price: 44500, // solo número, sin $ ni puntos
     image: "/products/Santa T. Gran Reserva 5 años.jpg",
     description:
       "Ron añejo venezolano de cuerpo suave, ideal para disfrutar solo, con hielo o en cócteles como el Cuba Libre",
@@ -471,7 +483,7 @@ export const products = [
     name: "Bardinet Napoleon 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "conac", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 26500, // solo número, sin $ ni puntos
+    price: 27500, // solo número, sin $ ni puntos
     image: "/products/Bardinet.jpg",
     description:
       "Destilado francés de origen tradicional, elaborado y envejecido en barricas de roble en las cavas de Bardinet cerca de Burdeos",
@@ -483,7 +495,7 @@ export const products = [
     name: "Soberano 1000ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "conac", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 51900, // solo número, sin $ ni puntos
+    price: 52900, // solo número, sin $ ni puntos
     image: "/products/Soberano.jpg",
     description:
       "Brandy español criado por el sistema de soleras y criaderas en botas de Jerez que antes tuvieron vino. De ahí salen sus notas de pasas y madera dulce. Se toma solo, con hielo o con cola.",
@@ -495,7 +507,7 @@ export const products = [
     name: "Lepanto 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "conac", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 199000, // solo número, sin $ ni puntos
+    price: 19900, // solo número, sin $ ni puntos
     image: "/products/Lepanto.jpg",
     description:
       "Una joya única de Jerez. El Brandy Lepanto Solera Gran Reserva es el único brandy producido íntegramente en Jerez mediante doble destilación en alambiques de cobre (método Charentais) y un envejecimiento mínimo de 12 años en botas de roble americano que previamente contuvieron vino Tío Pepe.",
@@ -531,7 +543,7 @@ export const products = [
     name: "Amaretto Disaronno 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "licores", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 44000, // solo número, sin $ ni puntos
+    price: 45900, // solo número, sin $ ni puntos
     image: "/products/Amaretto Disaronno.jpg",
     description:
       "El Amaretto Disaronno 700ml es el licor italiano más vendido del mundo, reconocido por su sabor agridulce a almendras y su icónica botella rectangular.",
@@ -543,7 +555,7 @@ export const products = [
     name: "Wild Africa Cream 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "licores", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 27000, // solo número, sin $ ni puntos
+    price: 26500, // solo número, sin $ ni puntos
     image: "/products/WildAfricaCream.png",
     description:
       "Licor crema sudafricano de 17% vol. de alcohol, elaborado con crema fresca de leche de vacas de libre pastoreo, caramelo, vainilla y un suave toque de frutos secos",
@@ -555,7 +567,7 @@ export const products = [
     name: "Wild Africa Chocolate 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "licores", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 27800, // solo número, sin $ ni puntos
+    price: 26500, // solo número, sin $ ni puntos
     image: "/products/WildChocolate.jpg",
     description:
       "Licor cremoso de origen sudafricano (estilo crema tipo Baileys), caracterizado por su textura aterciopelada y su sabor intenso a cacao combinado con crema fresca y notas de vainilla.",
@@ -567,7 +579,7 @@ export const products = [
     name: "Jerez Tio Pepe Sherry Revolution 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "licores", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 49000, // solo número, sin $ ni puntos
+    price: 49900, // solo número, sin $ ni puntos
     image: "/products/TioPepe.jpg",
     description:
       "Vino fino seco clásico de España, ideal para destacar en tu catálogo de ventas gracias a su perfil fresco, su versatilidad gastronómica y el prestigio de la bodega González Byass.",
@@ -615,7 +627,7 @@ export const products = [
     name: "Ramazzotti Rosato 700ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "aperitivos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 9000, // solo número, sin $ ni puntos
+    price: 9500, // solo número, sin $ ni puntos
     image: "/products/Ramazzotti.jpg",
     description:
       "Aperitivo italiano moderno y fresco de color rosado brillante, con una graduación alcohólica del 15%",
@@ -627,7 +639,7 @@ export const products = [
     name: "Croft Twist 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "aperitivos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 16800, // solo número, sin $ ni puntos
+    price: 18800, // solo número, sin $ ni puntos
     image: "/products/CroftTwist.jpg",
     description:
       "De color amarillo cálido, es una elegante combinación donde la hierbabuena y las notas cítricas se entrelazan. Una bebida ligera y suave.",
@@ -699,7 +711,7 @@ export const products = [
     name: "Vino Etchart - Torrontes Privado 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 4870, // solo número, sin $ ni puntos
+    price: 5600, // solo número, sin $ ni puntos
     image: "/products/PrivadoTorrontes.jpg",
     description:
       "Pack 3u. $4.400 c/u ---- Clásico vino blanco argentino originario de Cafayate, Salta, y fue el primer Torrontés varietal comercializado en botella de vidrio en el país (1963)",
@@ -711,7 +723,7 @@ export const products = [
     name: "Vino Cafayate 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 6100, // solo número, sin $ ni puntos
+    price: 6200, // solo número, sin $ ni puntos
     image: "/products/VinosCafayate.jpg",
     description: "Pack 3u. $5.300 c/u ---- Malbec - Cabernet Sauvignon - Syrah",
     available: true, // false = muestra "Sin stock"
@@ -722,7 +734,7 @@ export const products = [
     name: "Vino Cafayate - Rose 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 6100, // solo número, sin $ ni puntos
+    price: 6200, // solo número, sin $ ni puntos
     image: "/products/CafayateRose.jpg",
     description:
       "Pack 3u. $5.300 c/u ---- Rosado joven, fresco y equilibrado, ideal para destacar en la venta de bebidas por su perfil frutal y fácil de tomar.",
@@ -734,7 +746,7 @@ export const products = [
     name: "Vino Cafayate - Dulce Tardio 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 6100, // solo número, sin $ ni puntos
+    price: 6200, // solo número, sin $ ni puntos
     image: "/products/DulceTardio.jpg",
     description:
       "Pack 3u. $5.300 c/u ---- Vino blanco intenso y fragante, ideal para quienes buscan un equilibrio perfecto entre dulzura natural y frescura.",
@@ -746,7 +758,7 @@ export const products = [
     name: "Doña Paula - Seleccion de Bodega - Malbec 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 90000, // solo número, sin $ ni puntos
+    price: 95000, // solo número, sin $ ni puntos
     image: "/products/DoñaPaulaMalbec.png",
     description:
       "Un Malbec excepcional de 97 puntos (James Suckling), posicionado en el Top 30 de Argentina. Proveniente de los viñedos de altura en Gualtallary, este tinto de alta gama deleita con aromas complejos a frutas negras, notas minerales de grafito y cacao. En boca es amplio, estructurado y de gran concentración, ideal para acompañar carnes rojas a la parrilla gracias a sus 20 meses de crianza en roble francés.",
@@ -758,7 +770,7 @@ export const products = [
     name: "Doña Paula - Parcel - Malbec Alluvia 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 74500, // solo número, sin $ ni puntos
+    price: 74900, // solo número, sin $ ni puntos
     image: "/products/DoñaPaulaParcelMalbec.png",
     description:
       "+2 unid. $56.000 ----- El Doña Paula Alluvia Parcel Malbec es un auténtico vino de parcela y el máximo exponente de la bodega. Es un 100% Malbec ultra premium elaborado mediante microvinificaciones a partir de un viñedo único cultivado en cabeza en Gualtallary, Valle de Uco, a 1.350 metros sobre el nivel del mar.",
@@ -770,7 +782,7 @@ export const products = [
     name: "Doña Paula - Parcel - Malbec Los Indios 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 74500, // solo número, sin $ ni puntos
+    price: 74900, // solo número, sin $ ni puntos
     image: "/products/DoñaPaulaParcelIndios.png",
     description:
       "+2 unid. $56.000 ----- Un Malbec de culto con 95 puntos (James Suckling), nacido en el suelo calcáreo de El Cepillo. Este tinto ultra premium impacta con un color violeta profundo y aromas intensos a frutos rojos, flores y sutiles especias",
@@ -878,7 +890,7 @@ export const products = [
     name: "DOÑA PAULA - Single Vineyard 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 17400, // solo número, sin $ ni puntos
+    price: 16400, // solo número, sin $ ni puntos
     image: "/products/SingleVineyardMalbec.jpg",
     description:
       "Pack 3unid. $12.000 c/u ------ Malbec - Syrah - Sauvignon Blanc - Riesaling",
@@ -890,7 +902,7 @@ export const products = [
     name: "DOÑA PAULA - Single Vineyard Pinot Noir 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 17400, // solo número, sin $ ni puntos
+    price: 16400, // solo número, sin $ ni puntos
     image: "/products/SingleVineyardPinotNoir.jpg",
     description:
       "Pack 3unid. $12.000 c/u ------ Un Pinot Noir de altura elegante y fresco, nacido en el suelo calcáreo de Gualtallary. Criado 9 meses en barricas francesas usadas, regala puros aromas a frutas negras, pimienta rosa e higos secos. En boca se destaca por su textura suave, taninos sedosos y un final sutilmente salino y equilibrado.",
@@ -902,7 +914,7 @@ export const products = [
     name: "DOÑA PAULA - Estate Smoked 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 10800, // solo número, sin $ ni puntos
+    price: 10500, // solo número, sin $ ni puntos
     image: "/products/EstateSmoked.png",
     description:
       "Un Malbec innovador con un toque ahumado único, nacido en viñedos propios de Luján de Cuyo. Este tinto destaca por sus intensos aromas a frutos rojos maduros, perfectamente integrados con notas ahumadas, de vainilla y especias que simulan los aromas del clásico asado argentino.",
@@ -914,7 +926,7 @@ export const products = [
     name: "DOÑA PAULA - Black Edition Blend 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 10800, // solo número, sin $ ni puntos
+    price: 10500, // solo número, sin $ ni puntos
     image: "/products/BlackEdicionBlend.jpg",
     description:
       "Un impactante blend de Luján de Cuyo que combina Malbec, Cabernet Sauvignon y Petit Verdot. Tras un cuidadoso paso por barricas de roble francés, se destaca por su color violeta oscuro y complejos aromas a frutos negros, especias y un toque de grafito. En boca ofrece una textura sedosa, gran volumen y una frescura equilibrada que lo hace ideal para carnes asadas.",
@@ -926,7 +938,7 @@ export const products = [
     name: "DOÑA PAULA - Blue Edition 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 10800, // solo número, sin $ ni puntos
+    price: 10500, // solo número, sin $ ni puntos
     image: "/products/BlueEdition.jpg",
     description:
       "Un blend aterciopelado de Ugarteche que combina un cofermentado de Malbec y Pinot Noir con una base de Bonarda. Destaca por su color violeta intenso y frescos aromas a frutos rojos maduros, violetas y sutiles notas especiadas. En boca es redondo y de cuerpo medio, ofreciendo un paladar sedoso, jugoso y con taninos muy amables que invitan a seguir bebiendo.",
@@ -962,7 +974,7 @@ export const products = [
     name: "Doña Paula - Los Cardos - Red Blend 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 7500, // solo número, sin $ ni puntos
+    price: 7300, // solo número, sin $ ni puntos
     image: "/products/LosCardosRedBlend.png",
     description:
       "Pack 3unid. $5500 c/u ------- Un blend ágil, frutado y muy fácil de tomar, ideal para el consumo diario. Elaborado en Luján de Cuyo, combina Malbec, Cabernet Sauvignon, Syrah y Merlot, logrando un equilibrio perfecto.",
@@ -985,7 +997,7 @@ export const products = [
     name: "FAMILIA SCHROEDER - H. Schroeder Extra Brut 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "espumantes", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 24000, // solo número, sin $ ni puntos
+    price: 22000, // solo número, sin $ ni puntos
     image: "/products/H. SchroederExtraBrut.jpg",
     description: "Pack 3unid. $15000 c/u",
     available: true, // false = muestra "Sin stock"
@@ -996,7 +1008,7 @@ export const products = [
     name: "FAMILIA SCHROEDER - H.Schroeder Brut Nature 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "espumantes", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 24000, // solo número, sin $ ni puntos
+    price: 22000, // solo número, sin $ ni puntos
     image: "/products/H.SchroederBrutNature.jpg",
     description: "Pack 3unid. $15000 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1007,7 +1019,7 @@ export const products = [
     name: "FAMILIA SCHROEDER - H. Schroeder Brut Rose 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "espumantes", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 24000, // solo número, sin $ ni puntos
+    price: 22000, // solo número, sin $ ni puntos
     image: "/products/H. SchroederBrutRose.jpg",
     description: "Pack 3unid. $15000 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1029,7 +1041,7 @@ export const products = [
     name: "FAMILIA SCHROEDER - Pinot Noir Malbec 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 52500, // solo número, sin $ ni puntos
+    price: 54500, // solo número, sin $ ni puntos
     image: "/products/FS-PinotNoirMalbec.jpg",
     description:
       "Pack 3unid. $45.000 c/u ------- Un original tinto patagónico que fusiona la elegancia del Pinot Noir con la estructura del Malbec. Destaca por sus aromas a frutos rojos, cerezas y sutil vainilla de su paso por roble. En boca es fresco, equilibrado, de cuerpo medio y final refinado.",
@@ -1041,7 +1053,7 @@ export const products = [
     name: "FAMILIA SCHROEDER - Malbec - Merlot - Cabernet - Blend 750ml",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 48200, // solo número, sin $ ni puntos
+    price: 49200, // solo número, sin $ ni puntos
     image: "/products/FS-Malbec.jpg",
     description: "Pack 3unid. $35.000 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1130,7 +1142,7 @@ export const products = [
     name: "FAMILIA SCHROEDER - ESTUCHE PINOT (Estate-Select-Barrel)",
     category: "bebidas", // bebidas | powerful | croppers | nivea | sc-johnson
     subcategory: "vinos", // solo bebidas: vinos | whisky | ron | conac | gin
-    price: 70000, // solo número, sin $ ni puntos
+    price: 78000, // solo número, sin $ ni puntos
     image: "/products/Estuche-FS.jpg",
     description:
       "El obsequio definitivo para los fanáticos del Pinot Noir patagónico. Este exclusivo estuche de colección reúne la evolución de la cepa emblema de San Patricio del Chañar en tres niveles de complejidad creciente: una botella del joven y fresco Saurus Estate, una del elegante y complejo Saurus Select, y una del sofisticado Saurus Barrel Fermented criado en barricas. Un recorrido de sabor extraordinario e ideal para regalar.",
