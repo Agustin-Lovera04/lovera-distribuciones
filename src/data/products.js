@@ -1214,7 +1214,7 @@ export const products = [
     id: "ProtectorSolarNIVEASUNProtect&Hydrate", // único, sin espacios, no lo cambies después
     name: "Protector Solar NIVEA SUN Protect & Hydrate 200 ml 30FPS",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 15800, // solo número, sin $ ni puntos
+    price: 16900, // solo número, sin $ ni puntos
     image: "/products/ProtectorSolarNIVEASUNProtect&Hydrate.png",
     description: "",
     available: true, // false = muestra "Sin stock"
@@ -1224,7 +1224,7 @@ export const products = [
     id: "ProtectorSolarNIVEASUNProtect&Hydrate", // único, sin espacios, no lo cambies después
     name: "Protector Solar NIVEA SUN Protect & Hydrate 200 ml 50FPS",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 17300, // solo número, sin $ ni puntos
+    price: 18500, // solo número, sin $ ni puntos
     image: "/products/ProtectorSolarNIVEASUNProtect&Hydrate.png",
     description: "",
     available: true, // false = muestra "Sin stock"
@@ -1234,7 +1234,7 @@ export const products = [
     id: "ProtectorSolarNIVEASUNProtect&Hydrate", // único, sin espacios, no lo cambies después
     name: "Protector Solar NIVEA SUN Protect & Hydrate 200 ml 70FPS",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 18500, // solo número, sin $ ni puntos
+    price: 19900, // solo número, sin $ ni puntos
     image: "/products/ProtectorSolarNIVEASUNProtect&Hydrate.png",
     description: "",
     available: true, // false = muestra "Sin stock"
@@ -1242,9 +1242,9 @@ export const products = [
   },
   {
     id: "ProtectorSolarNIVEASUNProtect&HydrateInvisibleFinishFPS50", // único, sin espacios, no lo cambies después
-    name: "Protector Solar NIVEA SUN Protect & Hydrate nvisible Finish FPS 50",
+    name: "Protector Solar NIVEA SUN Protect & Hydrate invisible Finish FPS 50",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 15990, // solo número, sin $ ni puntos
+    price: 16900, // solo número, sin $ ni puntos
     image:
       "/products/ProtectorSolarNIVEASUNProtect&HydrateInvisibleFinishFPS50.png",
     description: "Caja de 12 u. $14.200 c/u",
@@ -1295,7 +1295,7 @@ export const products = [
     id: "AguaMicelarRegeneradoraNivea400ml", // único, sin espacios, no lo cambies después
     name: "Agua Micelar Regeneradora Nivea 400 ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 15300, // solo número, sin $ ni puntos
+    price: 14800, // solo número, sin $ ni puntos
     image: "/products/Agua Micelar Regeneradora Nivea 400 ml.png",
     description: "caja de 10 u. $13.700 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1305,7 +1305,7 @@ export const products = [
     id: "AguaMicelarNiveaIluminadora400ml", // único, sin espacios, no lo cambies después
     name: "Agua Micelar Nivea Iluminadora 400 ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 15300, // solo número, sin $ ni puntos
+    price: 14800, // solo número, sin $ ni puntos
     image: "/products/Agua Micelar Nivea Iluminadora 400 ml.png",
     description: "caja de 10 u. $13.700 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1315,7 +1315,7 @@ export const products = [
     id: "AguaMicelarNiveaPielNormal400ml", // único, sin espacios, no lo cambies después
     name: "Agua Micelar Nivea Piel Normal 400 ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 15300, // solo número, sin $ ni puntos
+    price: 14800, // solo número, sin $ ni puntos
     image: "/products/Agua Micelar Nivea Piel Normal 400 ml.png",
     description: "caja de 10 u. $13.700 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1325,7 +1325,7 @@ export const products = [
     id: "NIVEARoseCareAguaMicelarBifásica400ml", // único, sin espacios, no lo cambies después
     name: "NIVEA Rose Care Agua Micelar Bifásica 400 ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 15999, // solo número, sin $ ni puntos
+    price: 19999, // solo número, sin $ ni puntos
     image: "/products/NIVEA Rose Care Agua Micelar Bifásica 400 ml.png",
     description: "caja de 12 u. $14.400 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1355,7 +1355,7 @@ export const products = [
     id: "GelExfoliantePurificante75ml", // único, sin espacios, no lo cambies después
     name: "Gel Exfoliante Purificante 75ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 9300, // solo número, sin $ ni puntos
+    price: 10900, // solo número, sin $ ni puntos
     image: "/products/Gel Exfoliante Purificante 75ml.png",
     description: "caja de 12 u. $8.400 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1396,10 +1396,10 @@ export const products = [
     id: "Luminus630SerumPostAcné30ml", // único, sin espacios, no lo cambies después
     name: "Luminus 630 Serum Post Acné 30 ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 0, // solo número, sin $ ni puntos
+    price: 39900, // solo número, sin $ ni puntos
     image: "/products/Luminus 630 Serum Post Acné 30 ml.png",
     description: "",
-    available: false, // false = muestra "Sin stock"
+    available: true, // false = muestra "Sin stock"
     featured: false, // true = aparece en "Destacados" (máximo 3)
   },
   {
@@ -1454,9 +1454,9 @@ export const products = [
   },
   {
     id: "BodyHidratacionExpress250ml", // único, sin espacios, no lo cambies después
-    name: "Body Hidratacion Express 125ml",
+    name: "Body Hidratacion Express 250ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 6650, // solo número, sin $ ni puntos
+    price: 6850, // solo número, sin $ ni puntos
     image: "/products/Body Hidratacion Express 125ml.png",
     description: "caja de 12 u. $5900 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1476,7 +1476,7 @@ export const products = [
     id: "NIVEACreme60ml", // único, sin espacios, no lo cambies después
     name: "NIVEA Creme 60 ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 5200, // solo número, sin $ ni puntos
+    price: 4700, // solo número, sin $ ni puntos
     image: "/products/NIVEA Creme 60 ml.png",
     description: "caja de 144 u. $4690 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1486,7 +1486,7 @@ export const products = [
     id: "NIVEACreme150ml", // único, sin espacios, no lo cambies después
     name: "NIVEA Creme 150 ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 8900, // solo número, sin $ ni puntos
+    price: 7999, // solo número, sin $ ni puntos
     image: "/products/NIVEA Creme 60 ml.png",
     description: "caja de 12 u. $8200 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1496,7 +1496,7 @@ export const products = [
     id: "NIVEASoft100ml", // único, sin espacios, no lo cambies después
     name: "NIVEA Soft 100 ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 5900, // solo número, sin $ ni puntos
+    price: 7900, // solo número, sin $ ni puntos
     image: "/products/NIVEA Soft 100 ml.png",
     description: "caja de 24 u. $5500 c/u",
     available: true, // false = muestra "Sin stock"
@@ -1506,9 +1506,9 @@ export const products = [
     id: "HandCuidadoIntensivo100ml", // único, sin espacios, no lo cambies después
     name: "Hand Cuidado Intensivo 100ml",
     category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 7500, // solo número, sin $ ni puntos
+    price: 6999, // solo número, sin $ ni puntos
     image: "/products/Hand Cuidado Intensivo 100ml.png",
-    description: "caja de 6 u. $6800 c/u",
+    description: "caja de 6 u. $6200 c/u",
     available: true, // false = muestra "Sin stock"
     featured: false, // true = aparece en "Destacados" (máximo 3)
   },
@@ -1640,7 +1640,7 @@ export const products = [
     id: "RaidMMM380cc", // único, sin espacios, no lo cambies después
     name: "Raid MMM 380cc",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 7400, // solo número, sin $ ni puntos
+    price: 7500, // solo número, sin $ ni puntos
     image: "/products/Raid MMM 380cc.png",
     description: "Pack 3unid. $6400c/u",
     available: true, // false = muestra "Sin stock"
@@ -1650,7 +1650,7 @@ export const products = [
     id: "RaidMMMMAX360cc", // único, sin espacios, no lo cambies después
     name: "Raid MMM MAX 360cc",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 12800, // solo número, sin $ ni puntos
+    price: 12900, // solo número, sin $ ni puntos
     image: "/products/Raid MMM MAX 360cc.png",
     description: "Pack 3unid. $10.800c/u",
     available: true, // false = muestra "Sin stock"
@@ -1670,7 +1670,7 @@ export const products = [
     id: "RaidAparato45Noches", // único, sin espacios, no lo cambies después
     name: "Raid Aparato 45Noches",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 15800, // solo número, sin $ ni puntos
+    price: 15999, // solo número, sin $ ni puntos
     image: "/products/Raid Aparato 45Noches.png",
     description: "",
     available: true, // false = muestra "Sin stock"
@@ -1710,7 +1710,7 @@ export const products = [
     id: "RaidTabletasExpendedorasx12u", // único, sin espacios, no lo cambies después
     name: "Raid Tabletas Expendedoras x12u",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 4650, // solo número, sin $ ni puntos
+    price: 4950, // solo número, sin $ ni puntos
     image: "/products/Raid Tabletas Expendedoras x12u.png",
     description: "",
     available: true, // false = muestra "Sin stock"
@@ -1730,7 +1730,7 @@ export const products = [
     id: "FuyiTabletasExpendedorax12", // único, sin espacios, no lo cambies después
     name: "Fuyi Tabletas Expendedora x12",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 3750, // solo número, sin $ ni puntos
+    price: 3850, // solo número, sin $ ni puntos
     image: "/products/Fuyi Tabletas Expendedora x12.png",
     description: "Pack 3unid. $3.400c/u",
     available: true, // false = muestra "Sin stock"
@@ -1750,7 +1750,7 @@ export const products = [
     id: "OffFamilyBonusx290cc", // único, sin espacios, no lo cambies después
     name: "Off Family Bonus x290cc",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 12500, // solo número, sin $ ni puntos
+    price: 12999, // solo número, sin $ ni puntos
     image: "/products/Off Family Bonus x290cc.png",
     description: "Pack 3unid. $10.800c/u",
     available: true, // false = muestra "Sin stock"
@@ -1760,7 +1760,7 @@ export const products = [
     id: "OffFamilyCremax60gr", // único, sin espacios, no lo cambies después
     name: "Off Family Crema x60gr",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 3650, // solo número, sin $ ni puntos
+    price: 3750, // solo número, sin $ ni puntos
     image: "/products/Off Family Crema x60gr.png",
     description: "Pack 3unid. $3.400c/u",
     available: true, // false = muestra "Sin stock"
@@ -1770,7 +1770,7 @@ export const products = [
     id: "LysoformGatilloMultisuperficies500cc", // único, sin espacios, no lo cambies después
     name: "Lysoform Gatillo Multisuperficies 500cc",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 7150, // solo número, sin $ ni puntos
+    price: 7550, // solo número, sin $ ni puntos
     image: "/products/Lysoform Gatillo Multisuperficies 500cc.png",
     description: "Pack 3unid. $6.500c/u",
     available: true, // false = muestra "Sin stock"
@@ -1780,7 +1780,7 @@ export const products = [
     id: "LysoformCrema", // único, sin espacios, no lo cambies después
     name: "Lysoform Crema",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 4250, // solo número, sin $ ni puntos
+    price: 4450, // solo número, sin $ ni puntos
     image: "/products/Lysoform Crema.png",
     description: "Pack 3unid. $4.000c/u",
     available: true, // false = muestra "Sin stock"
@@ -1840,7 +1840,7 @@ export const products = [
     id: "BlemAerosolOriginalx360cc", // único, sin espacios, no lo cambies después
     name: "Blem Aerosol Original x360cc",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 6600, // solo número, sin $ ni puntos
+    price: 6500, // solo número, sin $ ni puntos
     image: "/products/Blem Aerosol Original x360cc.png",
     description: "Pack 3unid. $5.750c/u",
     available: true, // false = muestra "Sin stock"
@@ -1850,7 +1850,7 @@ export const products = [
     id: "BlemAerosolLimonparaAceroMetal", // único, sin espacios, no lo cambies después
     name: "Blem Aerosol Limon para Acero Metal",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 6600, // solo número, sin $ ni puntos
+    price: 6500, // solo número, sin $ ni puntos
     image: "/products/Blem Aerosol Limon para Acero Metal.png",
     description: "Pack 3unid. $5.750c/u",
     available: true, // false = muestra "Sin stock"
@@ -1860,7 +1860,7 @@ export const products = [
     id: "GladeAceiteFullaPrecioRTO", // único, sin espacios, no lo cambies después
     name: "Glade Aceite Full a Precio RTO",
     category: "sc-johnson", // bebidas | powerful | croppers | nivea | sc-johnson
-    price: 22000, // solo número, sin $ ni puntos
+    price: 21900, // solo número, sin $ ni puntos
     image: "/products/Glade Aceite Full a Precio RTO.png",
     description: "Pack 2unid. $19.800c/u",
     available: true, // false = muestra "Sin stock"
