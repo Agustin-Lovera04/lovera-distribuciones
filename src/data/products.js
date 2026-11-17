@@ -1251,6 +1251,16 @@ export const products = [
     available: true, // false = muestra "Sin stock"
     featured: false, // true = aparece en "Destacados" (máximo 3)
   },
+    {
+    id: "ProtectorSolarSwimyPlayKIDS", // único, sin espacios, no lo cambies después
+    name: "NIVEA SUN KIDS SWIM & PLAY FPS60",
+    category: "nivea", // bebidas | powerful | croppers | nivea | sc-johnson
+    price: 16200, // solo número, sin $ ni puntos
+    image: "/products/SwimYPlay.png",
+    description: "",
+    available: true, // false = muestra "Sin stock"
+    featured: false, // true = aparece en "Destacados" (máximo 3)
+  },
   {
     id: "BronceadorSolarNiveaIntenseBronzeFps6x200ml", // único, sin espacios, no lo cambies después
     name: "Bronceador Solar Nivea Intense Bronze Fps 6 x 200 ml",
